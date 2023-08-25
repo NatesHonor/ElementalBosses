@@ -2,7 +2,7 @@
 <project name="Boss" default="CreateJar" basedir="." xmlns:file="antlib:org.apache.tools.ant.types.resources.selectors">
 
     <basename file="${basedir}" property="project.projectname"/>
-    <property name="project.pluginsLocation" location="C:\Users\natha\OneDrive\Documents\MCSS\servers\test- 1.20\plugins"/>
+    <property name="project.pluginsLocation" location="C:\Users\natha\Development\Minecraft\ElementalLegacy\Plugins\Bosses"/>
 
     <target name="clean" description="Cleans project">
         <delete file="${project.pluginsLocation}/${project.projectname}.jar"/>

@@ -1,5 +1,5 @@
 name: Boss
-version: 1.0.0
+version: 1.0.1
 main: com.nate.boss.Boss
 author: items
 description: A plugin for managing bosses
@@ -10,5 +10,4 @@ commands:
     usage: /boss
   boss spawn:
     description: Spawns a boss
-    permission: 
     usage: /boss spawn
